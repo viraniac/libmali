@@ -122,12 +122,12 @@ else
 endif
 
 # Wrap library name : version
-gbm_wrappers = {'gbm' : '1'}
-egl_wrappers = {'EGL' : '1'}
+gbm_wrappers = {'gbm' : '1.0.0'}
+egl_wrappers = {'EGL' : '1.1.0'}
 glesv1_wrappers = {'GLESv1_CM' : '1'}
-glesv2_wrappers = {'GLESv2' : '2'}
-wayland_wrappers = {'wayland-egl' : '1'}
-cl_wrappers = opencl_icd ? {'MaliOpenCL' : '1'} : {'OpenCL' : '1'}
+glesv2_wrappers = {'GLESv2' : '2.1.0'}
+wayland_wrappers = {'wayland-egl' : '1.22.0'}
+cl_wrappers = opencl_icd ? {'MaliOpenCL' : '1'} : {'OpenCL' : '1.0.0'}
 vk_wrappers = {'MaliVulkan' : '1'}
 
 # Provide newer GBM version with hook library

@@ -22,8 +22,8 @@ Vcs-Browser: https://github.com/rockchip-linux/libmali
 
 Package: libmali-bifrost-g52-r44p0-r1p0-wayland-gbm
 Architecture: arm64
-Provides: libmali, linux-gpu-mali-wayland, libegl1-mesa, libegl1, libgles2-mesa, libegl1-mesa-dev, libgles2-mesa-dev, libglvnd-dev, libgles1-mesa, mesa-common-dev, libgbm1
+Provides: libmali, linux-gpu-mali-wayland, libegl1-mesa, libegl1, libgles2-mesa, libegl1-mesa-dev, libgles2-mesa-dev, libglvnd-dev, libgles1-mesa, mesa-common-dev, libgbm1, libwayland-egl1
 Conflicts: libmali, linux-gpu-mali-fbdev, linux-gpu-mali-x11, linux-gpu-mali-wayland, linux-gpu-mali-gbm
-Replaces: libmali, linux-gpu-mali-fbdev, linux-gpu-mali-x11, linux-gpu-mali-wayland, linux-gpu-mali-gbm, libegl1-mesa, libegl1, libgles2, libgles2-mesa, libegl1-mesa-dev, libgles2-mesa-dev, libglvnd-dev, libgles1, libgles1-mesa, mesa-common-dev, libgl-dev, libegl-dev, libgles-dev, libgbm-dev, libgbm1
+Replaces: libmali, linux-gpu-mali-fbdev, linux-gpu-mali-x11, linux-gpu-mali-wayland, linux-gpu-mali-gbm, libegl1-mesa, libegl1, libgles2, libgles2-mesa, libegl1-mesa-dev, libgles2-mesa-dev, libglvnd-dev, libgles1, libgles1-mesa, mesa-common-dev, libgl-dev, libegl-dev, libgles-dev, libgbm-dev, libgbm1, libwayland-egl1, libwayland-dev
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Mali GPU User-Space Binary Drivers
